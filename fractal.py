@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 from PIL import Image, ImageDraw
 import math, colorsys
 
@@ -70,3 +71,4 @@ del d
 del d_prev
 img.save("fractal_"+str(cfour)+"_"+str(cthree)+"_"+str(ctwo)+"_"+str(cone)+".png")
 img.show()
+prev_img.close()
